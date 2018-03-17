@@ -1,0 +1,24 @@
+@media screen and (max-width: 549px) {
+  .header__logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+  .header__title p:nth-child(1){
+    font-weight: 20;
+    font-size:3em;
+  }
+  
+  .header__title p{
+    margin:0;
+    font-size:1em;
+  }
+}
+
+
+@media screen and (min-width: 850px) {
+  main, .header__inner, .content {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
